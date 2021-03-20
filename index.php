@@ -55,7 +55,8 @@
                                  <li> <a href="#about">About</a> </li>
                                  <li><a href="#news">News</a></li>
                                  <li><a href="#contact">Contact Us</a></li>
-                                 <li style="padding-left: 106px"><a href="authenticate.php">Current Users</a></li>
+                                 <li><a href="authenticate.php">Current Users</a></li>
+                                 <li><a href="srch_and_update.php">User</a></li>
                               </ul>
 
                            </nav>
@@ -145,7 +146,7 @@
                </div>
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
                   <div class="sport_product">
-                     <figure><img src="images/rigs.jpg" alt="img"/"></figure>
+                     <figure><img src="images/rigs.JPG" alt="img"/"></figure>
                     <h3> $<strong class="price_text">120</strong></h3>
                      <h4>Rigs & Rags</h4>
                   </div>
