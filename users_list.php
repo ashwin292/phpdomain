@@ -21,11 +21,11 @@
 <meta charset="utf-8">
 <title>List of Users</title>
 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/users_list/bootstrap.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="css/users_list/jquery.min.js"></script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="css/users_list/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -35,9 +35,10 @@
 <table class="table table-bordered">
  <thead>
  <tr>
- <th>ID</th>
  <th>Name</th>
  <th>Email</th>
+ <th>Address</th>
+ <th>Phone</th>
  </tr>
  </thead>
  <tbody>
@@ -61,9 +62,10 @@ $result = $conn->query($sql);
  
  while($row = $result->fetch_assoc())
  {
- echo"<td>".$row['user_id']."</td>";
  echo"<td>".$row['first_name']." ".$row['last_name']."</td>";
- echo"<td>".$row['email']."</td>"; 
+ echo"<td>".$row['email']."</td>";
+ echo"<td>".$row['home_address']."</td>";
+ echo"<td>".$row['cell_phone']."</td>"; 
  echo "</tr>";
  }
  $conn->close();
