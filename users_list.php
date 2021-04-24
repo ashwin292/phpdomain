@@ -1,25 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-</head>
-<body>
-
-<a href="index.php">Home</a>
-<br>
-<br>
-
-
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-<head>
 <meta charset="utf-8">
-<title>List of Users</title>
 
 <link rel="stylesheet" href="css/users_list/bootstrap.min.css">
 
@@ -31,7 +13,8 @@
 <body>
 
 <div class="container">
- 
+ <br>
+ <br>
 <table class="table table-bordered">
  <thead>
  <tr>
@@ -70,7 +53,7 @@ $result = $conn->query($sql);
  }
  $conn->close();
  ?>
-</table>
+ </table>
 
 </div>
 </body>
