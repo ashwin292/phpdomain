@@ -2,13 +2,13 @@
 
 $count = 1;
 
-if(array_key_exists("bench", $_COOKIE)){
+if(array_key_exists("treadmill", $_COOKIE)){
   
-  $count = $_COOKIE["bench"] + 1;
+  $count = $_COOKIE["treadmill"] + 1;
 
 }
 
-  setcookie("bench", $count, time() + (60 * 60 * 24));
+  setcookie("treadmill", $count, time() + (60 * 60 * 24));
 
 ?>
 
@@ -17,7 +17,7 @@ if(array_key_exists("bench", $_COOKIE)){
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bench</title>
+    <title>Treadmill</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <!-- CSS -->
@@ -31,7 +31,7 @@ if(array_key_exists("bench", $_COOKIE)){
 
       <!-- Left Column / Headphones Image -->
       <!-- <div class="left-column"> -->
-        <figure><img src="../images/bench.jpg" alt="img"/></figure>
+        <figure><img src="../images/treadmill.jpg" alt="img" width="700" height="600"/></figure>
       <!-- </div> -->
 
 
@@ -40,9 +40,9 @@ if(array_key_exists("bench", $_COOKIE)){
 
         <!-- Product Description -->
         <div class="product-description">
-          <span>Bench</span>
-          <h1>Bench</h1>
-          <p>A weight training bench is a piece of equipment that has a resemblance to a normal bench, but is designed for use in weight training.</p>
+          <span>Treadmill</span>
+          <h1>Treadmill</h1>
+          <p>A treadmill is a device generally used for walking, running, or climbing while staying in the same place.</p>
         </div>
 
         <!-- Product Configuration -->
@@ -84,7 +84,7 @@ if(array_key_exists("bench", $_COOKIE)){
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>50$</span>
+          <span>100$</span>
           <a href="#" class="cart-btn">Add to cart</a>
         </div>
       </div>

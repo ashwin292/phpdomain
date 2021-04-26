@@ -2,13 +2,13 @@
 
 $count = 1;
 
-if(array_key_exists("bench", $_COOKIE)){
+if(array_key_exists("dumbell", $_COOKIE)){
   
-  $count = $_COOKIE["bench"] + 1;
+  $count = $_COOKIE["dumbell"] + 1;
 
 }
 
-  setcookie("bench", $count, time() + (60 * 60 * 24));
+  setcookie("dumbell", $count, time() + (60 * 60 * 24));
 
 ?>
 
@@ -17,7 +17,7 @@ if(array_key_exists("bench", $_COOKIE)){
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bench</title>
+    <title>Dumbell</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <!-- CSS -->
@@ -31,7 +31,7 @@ if(array_key_exists("bench", $_COOKIE)){
 
       <!-- Left Column / Headphones Image -->
       <!-- <div class="left-column"> -->
-        <figure><img src="../images/bench.jpg" alt="img"/></figure>
+        <figure><img src="../images/weight.jpg" alt="img"/></figure>
       <!-- </div> -->
 
 
@@ -40,9 +40,9 @@ if(array_key_exists("bench", $_COOKIE)){
 
         <!-- Product Description -->
         <div class="product-description">
-          <span>Bench</span>
-          <h1>Bench</h1>
-          <p>A weight training bench is a piece of equipment that has a resemblance to a normal bench, but is designed for use in weight training.</p>
+          <span>dumbbell</span>
+          <h1>Dumbbell</h1>
+          <p>The dumbbell, a type of free weight, is a piece of equipment used in weight training. It can be used individually or in pairs, with one in each hand.</p>
         </div>
 
         <!-- Product Configuration -->
@@ -70,7 +70,7 @@ if(array_key_exists("bench", $_COOKIE)){
           </div> -->
 
           <!-- Cable Configuration -->
-          <!-- <div class="cable-config">
+         <!--  <div class="cable-config">
             <span>Cable configuration</span>
 
             <div class="cable-choose">
@@ -84,7 +84,7 @@ if(array_key_exists("bench", $_COOKIE)){
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>50$</span>
+          <span>30$</span>
           <a href="#" class="cart-btn">Add to cart</a>
         </div>
       </div>
