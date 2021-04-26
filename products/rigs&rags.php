@@ -31,7 +31,7 @@ if(array_key_exists("rigs&rags", $_COOKIE)){
 
       <!-- Left Column / Headphones Image -->
       <!-- <div class="left-column"> -->
-        <figure><img src="../images/rigs.jpg" alt="img"/></figure>
+        <figure><img src="../images/rigs.JPG" alt="img"/></figure>
       <!-- </div> -->
 
 

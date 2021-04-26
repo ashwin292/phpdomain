@@ -57,7 +57,7 @@ for ($i=0, $j=0; $i < 5 and $j < count($new); $i++, $j++){
 		case "rigs&rags":
 			echo "<br><li>
 					<h4>Rigs & Rags</h4>
-					<img width=\"300\" height=\"300\" src=\"../images/rigs.jpg\" alt=\"My Image\">
+					<img width=\"300\" height=\"300\" src=\"../images/rigs.JPG\" alt=\"My Image\">
 					</li>";
 			break;
 
