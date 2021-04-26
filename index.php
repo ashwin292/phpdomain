@@ -108,12 +108,17 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2><strong class="black"> Our</strong>  Products</h2>
-                      <h4 align="right">
-                        <a href="last_five_products.php">View Last 5 Visited Products</a>
-                      </h4>
-                     <span>We thrive to provide best quality products for our
-                     customers</span>
+                     <h2><strong class="black"> Our</strong> Products </h2>
+                     <h3 align="right">
+                      <a href="products/last_five_products.php">
+                      <strong>Last 5 Visited Products</strong>
+                    </a>
+                    <a href="products/top_five_products.php">
+                    &nbsp; <strong>Top 5 Visited Products</strong>
+                  </a>
+                </h3>
+                  <span>We thrive to provide best quality products to our customers.</span>
+                                         
                   </div>
                </div>
             </div>
@@ -122,59 +127,118 @@
          <div class="clothes_main section ">
           <div class="container">
             <div class="row">
-              <form action="/set_cookies.php" method="post"> 
-              <a href="products/dumbell.php" class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-               <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12"> -->
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="sport_product">
-                     <figure><img src="images/weight.jpg" alt="img"/></figure>
+                     <figure>
+                      <a href="products/dumbell.php">
+                        <img src="images/weight.jpg" alt="img"/>
+                      </a>
+                      </figure>
                     <h3> $<strong class="price_text">30</strong></h3>
                      <h4>Dumbbell</h4>
                   </div>
-               <!-- </div> -->
-               </a>
-             </form>
-               <a href="products/bench.php" class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-               <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 "> -->
+               </div>
+               
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
                   <div class="sport_product">
-                     <figure><img src="images/bench.jpg" alt="img"/ ></figure>
+                     <figure>
+                      <a href="products/bench.php">
+                        <img src="images/bench.jpg" alt="img"/ >
+                      </a>
+                    </figure>
                     <h3> $<strong class="price_text">50</strong></h3>
                      <h4> Bench </h4>
                   </div>
-
-               <!-- </div> -->
-             </a>
-             <a href="products/treadmill.php" class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-               <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 "> -->
+               </div>
+        
+             
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
                   <div class="sport_product">
-                     <figure><img src="images/treadmill.jpg" alt="img"/></figure>
+                    <figure>
+                      <a href="products/treadmill.php">
+                        <img src="images/treadmill.jpg" alt="img"/>
+                      </a>
+                    </figure>
                      <h3> $<strong class="price_text">100</strong></h3>
                      <h4>Treadmill</h4>
                   </div>
-               <!-- </div>          -->
-             </a>
-             <a href="products/stepper.php" class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-               <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12"> -->
+               </div>         
+             
+             
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="sport_product">
-                     <figure><img src="images/stepper.jpg" alt="img"/></figure>
+                     <figure>
+                      <a href="products/stepper.php">
+                        <img src="images/stepper.jpg" alt="img"/>
+                      </a>
+                    </figure>
                    <h3> $<strong class="price_text">80</strong></h3>
                      <h4>Stepper</h4>
                   </div>
-               <!-- </div> -->
-             </a>
+               </div>
+             
+             
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
                   <div class="sport_product">
-                     <figure><img src="images/rigs.JPG" alt="img"/></figure>
+                    <figure>
+                      <a href="products/rigs&rags.php">
+                        <img src="images/rigs.JPG" alt="img"/>
+                      </a>
+                    </figure>
                     <h3> $<strong class="price_text">120</strong></h3>
                      <h4>Rigs & Rags</h4>
                   </div>
                </div>
+
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
                   <div class="sport_product">
-                     <figure><img src="images/cycles.jpg" alt="img"/></figure>
+                     <figure>
+                      <a href="products/cycles.php">
+                        <img src="images/cycles.jpg" alt="img"/>
+                      </a>
+                    </figure>
                     <h3> $<strong class="price_text">100</strong></h3>
                      <h4>Cycles</h4>
                   </div>
                </div>
+
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                  <div class="sport_product">
+                     <figure>
+                      <a href="products/rower.php">
+                        <img src="images/rower.png" alt="img"/>
+                      </a>
+                    </figure>
+                    <h3> $<strong class="price_text">150</strong></h3>
+                     <h4>Rower</h4>
+                  </div>
+               </div>
+
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                  <div class="sport_product">
+                     <figure>
+                      <a href="products/cross_trainer.php">
+                        <img src="images/cross_train.jpg" alt="img"/>
+                      </a>
+                    </figure>
+                    <h3> $<strong class="price_text">200</strong></h3>
+                     <h4>Cross Trainer</h4>
+                  </div>
+               </div>
+
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                  <div class="sport_product">
+                     <figure>
+                      <a href="products/stair_climber.php">
+                        <img src="images/stair_climber.jpeg" alt="img"/>
+                      </a>
+                    </figure>
+                    <h3> $<strong class="price_text">180</strong></h3>
+                     <h4>Stair Climber</h4>
+                  </div>
+               </div>
+             
              </div>
             </div>
            </div>
