@@ -20,5 +20,9 @@ setcookie("stair_climber_time", 0, time() - 100000);
 setcookie("stepper_time", 0, time() - 100000);
 setcookie("treadmill_time", 0, time() - 100000);
 
+file_put_contents("last_5_visited.txt", "");
+file_put_contents("review_data.txt", "");
+file_put_contents("top_five_products.txt", "");
+
 
 ?>
