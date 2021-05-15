@@ -1,17 +1,10 @@
 <?php
 
-$count = 1;
+include 'updateCookie.php';
 
-if(array_key_exists("stair_climber", $_COOKIE)){
-  
-  $count = $_COOKIE["stair_climber"] + 1;
-
-}
-
-  setcookie("stair_climber", $count, time() + (60 * 60 * 24));
+updateCookie("stair_climber");
 
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>

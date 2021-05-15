@@ -1,14 +1,8 @@
 <?php
 
-$count = 1;
+include 'updateCookie.php';
 
-if(array_key_exists("rower", $_COOKIE)){
-  
-  $count = $_COOKIE["rower"] + 1;
-
-}
-
-  setcookie("rower", $count, time() + (60 * 60 * 24));
+updateCookie("rower");
 
 ?>
 
@@ -61,3 +55,11 @@ if(array_key_exists("rower", $_COOKIE)){
     <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
+
+<?php
+
+include 'updateLast5prod.php';
+
+updateLast5list();
+
+?>

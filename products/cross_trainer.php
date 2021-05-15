@@ -1,17 +1,10 @@
 <?php
 
-$count = 1;
+include 'updateCookie.php';
 
-if(array_key_exists("cross_train", $_COOKIE)){
-  
-  $count = $_COOKIE["cross_train"] + 1;
-
-}
-
-  setcookie("cross_train", $count, time() + (60 * 60 * 24));
+updateCookie("cross_train");
 
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>

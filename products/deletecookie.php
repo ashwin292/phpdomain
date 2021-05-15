@@ -1,13 +1,24 @@
 <?php
 
-setcookie("bench", 0, time() - 7200);
-setcookie("cross_train", 0, time() - 7200);
-setcookie("cycles", 0, time() - 7200);
-setcookie("dumbell", 0, time() - 7200);
-setcookie("rigs&rags", 0, time() - 7200);
-setcookie("rower", 0, time() - 7200);
-setcookie("stair_climber", 0, time() - 7200);
-setcookie("stepper", 0, time() - 7200);
-setcookie("treadmill", 0, time() - 7200);
+setcookie("bench", 0, time() - 100000);
+setcookie("cross_train", 0, time() - 100000);
+setcookie("cycles", 0, time() - 100000);
+setcookie("dumbell", 0, time() - 100000);
+setcookie("rigs&rags", 0, time() - 100000);
+setcookie("rower", 0, time() - 100000);
+setcookie("stair_climber", 0, time() - 100000);
+setcookie("stepper", 0, time() - 100000);
+setcookie("treadmill", 0, time() - 100000);
+
+setcookie("bench_time", 0, time() - 100000);
+setcookie("cross_train_time", 0, time() - 100000);
+setcookie("cycles_time", 0, time() - 100000);
+setcookie("dumbell_time", 0, time() - 100000);
+setcookie("rigs&rags_time", 0, time() - 100000);
+setcookie("rower_time", 0, time() - 100000);
+setcookie("stair_climber_time", 0, time() - 100000);
+setcookie("stepper_time", 0, time() - 100000);
+setcookie("treadmill_time", 0, time() - 100000);
+
 
 ?>

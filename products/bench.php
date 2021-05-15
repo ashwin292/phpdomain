@@ -1,14 +1,8 @@
 <?php
 
-$count = 1;
+include 'updateCookie.php';
 
-if(array_key_exists("bench", $_COOKIE)){
-  
-  $count = $_COOKIE["bench"] + 1;
-
-}
-
-  setcookie("bench", $count, time() + (60 * 60 * 24));
+updateCookie("bench");
 
 ?>
 

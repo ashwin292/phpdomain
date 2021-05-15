@@ -1,14 +1,8 @@
 <?php
 
-$count = 1;
+include 'updateCookie.php';
 
-if(array_key_exists("treadmill", $_COOKIE)){
-  
-  $count = $_COOKIE["treadmill"] + 1;
-
-}
-
-  setcookie("treadmill", $count, time() + (60 * 60 * 24));
+updateCookie("treadmill");
 
 ?>
 
