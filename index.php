@@ -109,15 +109,20 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2><strong class="black"> Our</strong> Products </h2>
-                     <h3 align="right">
+                  
+                  <span>We thrive to provide best quality products to our customers.</span>
+                  <br>
+                  <h3>
                       <a href="products/last_five_products.php">
                       <strong>Last 5 Visited Products</strong>
                     </a>
                     <a href="products/top_five_products.php">
                     &nbsp; <strong>Top 5 Visited Products</strong>
                   </a>
+                  <a href="mplace_login_check.php">
+                  &nbsp; <strong>Add Product Reviews</strong>
+                    </a>
                 </h3>
-                  <span>We thrive to provide best quality products to our customers.</span>
                                          
                   </div>
                </div>
