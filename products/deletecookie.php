@@ -20,6 +20,16 @@ setcookie("stair_climber_time", 0, time() - 100000);
 setcookie("stepper_time", 0, time() - 100000);
 setcookie("treadmill_time", 0, time() - 100000);
 
+setcookie("Bench_count", 0, time() - 100000);
+setcookie("Cross_Trainer_count", 0, time() - 100000);
+setcookie("Cycles_count", 0, time() - 100000);
+setcookie("Dumbbell_count", 0, time() - 100000);
+setcookie("Rigs_&_Rags_count", 0, time() - 100000);
+setcookie("Rower_count", 0, time() - 100000);
+setcookie("Stair_Climber_count", 0, time() - 100000);
+setcookie("Stepper_count", 0, time() - 100000);
+setcookie("Treadmill_count", 0, time() - 100000);
+
 file_put_contents("last_5_visited.txt", "");
 file_put_contents("review_data.txt", "");
 file_put_contents("top_five_products.txt", "");
