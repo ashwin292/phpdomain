@@ -119,7 +119,7 @@
                     <a href="products/top_five_products.php">
                     &nbsp; <strong>Top 5 Visited Products</strong>
                   </a>
-                  <a href="products/review_page.php">
+                  <a href="products/login.html">
                   &nbsp; <strong>Add Product Reviews</strong>
                     </a>
                 </h3>
